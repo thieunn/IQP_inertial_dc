@@ -1,0 +1,104 @@
+{
+ "problem": "NCVXQP4",
+ "start": "cutest",
+ "seed": 0,
+ "n": 1000,
+ "m_cutest": 250,
+ "m_imported": 250,
+ "m_equalities": 250,
+ "rows_Axb_general": 500,
+ "rows_Axb_bounds": 2000,
+ "quad_check": 6.135876501659617e-16,
+ "linearity_check": 1.7763568394002505e-15,
+ "lambda_min": -9641.367099586856,
+ "lambda_max": 782.5766607232314,
+ "eta1": 784.5766607232314,
+ "eta2": 9643.367099586856,
+ "rho": 2.0,
+ "gamma": 0.5,
+ "tol": 1e-06,
+ "max_iter": 5000,
+ "x0_lin_viol": 8.881784197001252e-16,
+ "x0_bound_viol": 0.0,
+ "qp_solver": "piqp 0.6.4 + active-set polishing",
+ "DCA": {
+  "obj": -93967189.74926344,
+  "lin_viol": 1.0658141036401503e-14,
+  "bound_viol": 0.0,
+  "kkt_res": 1.250213094887822e-07,
+  "iterations": 11,
+  "converged": true,
+  "time_s": 0.084
+ },
+ "InDCA1": {
+  "obj": -93967189.74926344,
+  "lin_viol": 9.769962616701378e-15,
+  "bound_viol": 0.0,
+  "kkt_res": 1.2502130393332068e-07,
+  "iterations": 12,
+  "converged": true,
+  "time_s": 0.076
+ },
+ "DCA2": {
+  "obj": -93967189.7494268,
+  "lin_viol": 5.950795411990839e-14,
+  "bound_viol": 9.947598300641403e-14,
+  "kkt_res": 1.0795453697049545e-07,
+  "iterations": 63,
+  "converged": true,
+  "time_s": 3.834
+ },
+ "InDCA2": {
+  "obj": -93967189.74942671,
+  "lin_viol": 1.163513729807164e-13,
+  "bound_viol": 2.2026824808563106e-13,
+  "kkt_res": 1.0804542948500749e-07,
+  "iterations": 64,
+  "converged": true,
+  "time_s": 3.789
+ },
+ "BDCA": {
+  "obj": -93967189.74926344,
+  "lin_viol": 1.0658141036401503e-14,
+  "bound_viol": 0.0,
+  "kkt_res": 1.250213094917385e-07,
+  "iterations": 11,
+  "converged": true,
+  "time_s": 0.064,
+  "boosted_steps": 0
+ },
+ "qp_stats": {
+  "proj_solves": 40,
+  "proj_polished": 1,
+  "proj_polish_rejected": 39,
+  "proj_fallbacks": 0,
+  "sub_solves": 127,
+  "sub_polished": 8,
+  "sub_polish_rejected": 119,
+  "sub_fallbacks": 0
+ },
+ "companion": {
+  "name": "NCVXBQP1",
+  "eta": 784.5766607232314,
+  "max_abs_diff_Q": 0.0,
+  "max_abs_diff_q": 0.0,
+  "DCA": {
+   "obj": -198679722.74860215,
+   "lin_viol": 0.0,
+   "bound_viol": 0.0,
+   "kkt_res": 0.0015865102162953418,
+   "iterations": 15,
+   "converged": true,
+   "lin_viol_in_NCVXQP": 53.99999999984554
+  },
+  "InDCA1": {
+   "obj": -198679722.74860218,
+   "lin_viol": 0.0,
+   "bound_viol": 0.0,
+   "kkt_res": 0.0015865097233434696,
+   "iterations": 15,
+   "converged": true,
+   "lin_viol_in_NCVXQP": 53.99999999984554
+  }
+ }
+}
