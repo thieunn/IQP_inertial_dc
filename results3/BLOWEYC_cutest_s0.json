@@ -1,0 +1,80 @@
+{
+ "problem": "BLOWEYC",
+ "start": "cutest",
+ "seed": 0,
+ "n": 2002,
+ "m_cutest": 1002,
+ "m_imported": 1002,
+ "m_equalities": 1002,
+ "rows_Axb_general": 2004,
+ "rows_Axb_bounds": 2002,
+ "quad_check": 1.3425694370961444e-15,
+ "linearity_check": 2.6290081223123707e-13,
+ "lambda_min": -9.999999999352576e-07,
+ "lambda_max": 7.99998030022677,
+ "eta1": 9.99998030022677,
+ "eta2": 2.000001,
+ "rho": 2.0,
+ "gamma": 0.5,
+ "tol": 1e-06,
+ "max_iter": 5000,
+ "x0_lin_viol": 3.652633751016765e-13,
+ "x0_bound_viol": 0.0,
+ "qp_solver": "piqp 0.6.4 + active-set polishing",
+ "DCA": {
+  "obj": -0.00019328946933711268,
+  "lin_viol": 4.547473508864641e-13,
+  "bound_viol": 0.0,
+  "kkt_res": 6.337269807315472e-05,
+  "iterations": 5000,
+  "converged": false,
+  "time_s": 29.599
+ },
+ "InDCA1": {
+  "obj": -0.00019339513406416698,
+  "lin_viol": 5.115907697472721e-13,
+  "bound_viol": 0.0,
+  "kkt_res": 6.337254317583988e-05,
+  "iterations": 5000,
+  "converged": false,
+  "time_s": 27.027
+ },
+ "DCA2": {
+  "obj": -0.00020132016398673706,
+  "lin_viol": 3.164135620181696e-15,
+  "bound_viol": 0.0,
+  "kkt_res": 6.336097393033994e-05,
+  "iterations": 5000,
+  "converged": false,
+  "time_s": 29.966
+ },
+ "InDCA2": {
+  "obj": -0.00020466451468298863,
+  "lin_viol": 1.1368683772161603e-13,
+  "bound_viol": 0.0,
+  "kkt_res": 6.335607054323805e-05,
+  "iterations": 5000,
+  "converged": false,
+  "time_s": 32.383
+ },
+ "BDCA": {
+  "obj": -0.0001959744714324503,
+  "lin_viol": 1.3642420526593924e-12,
+  "bound_viol": 0.0,
+  "kkt_res": 6.336876196716796e-05,
+  "iterations": 5000,
+  "converged": false,
+  "time_s": 29.891,
+  "boosted_steps": 3343
+ },
+ "qp_stats": {
+  "proj_solves": 15006,
+  "proj_polished": 15006,
+  "proj_polish_rejected": 0,
+  "proj_fallbacks": 0,
+  "sub_solves": 10000,
+  "sub_polished": 10000,
+  "sub_polish_rejected": 0,
+  "sub_fallbacks": 0
+ }
+}
